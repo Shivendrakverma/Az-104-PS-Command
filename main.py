@@ -5,7 +5,7 @@ import logging
 
 def main():
 
-    t_token = '1571795741:AAFnU3GWkiwBp9DCGN52Htbda10zznT4hys'
+    t_token = 'token'
     updater = Updater(token=t_token, use_context=True)
     dis_p = updater.dispatcher
     #logging.basicConfig(format='%(asctime)s -%(name) -%(levelname)s - %(message)s', level=logging.INFO)
